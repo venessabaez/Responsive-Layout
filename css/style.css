@@ -26,6 +26,10 @@ a, a:visited {
   text-decoration: none;
 }
 
+a:hover {
+  color: #458500;
+}
+
 .container {
   width: 90%;
   margin: auto;
@@ -103,6 +107,24 @@ header {
 .portfolio-item p {
   color: #4a4a4a;
   font-size: 1em;
+}
+
+#skills {
+  padding: 30px 0;
+}
+
+.skills-list {
+  padding: 0;
+}
+
+.skills-list li {
+  background-color: #b4a8d2;
+  color: #fff;
+  border-radius: 5px;
+  list-style: none;
+  padding: 15px;
+  margin: 15px;
+  display: inline-block;
 }
 
 #contact {
